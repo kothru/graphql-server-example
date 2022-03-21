@@ -4,7 +4,7 @@ const books = [
     author: 'Kate Chopin',
   },
   {
-    title: 'City of Glassa',
+    title: 'City of Glass',
     author: 'Paul Auster',
   },
 ];
