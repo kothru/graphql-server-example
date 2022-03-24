@@ -1,9 +1,5 @@
 import { ApolloServer } from 'apollo-server'
 
-// A schema is a collection of type definitions (hence "typeDefs")
-// that together define the "shape" of queries that are executed against
-// your data.
-
 // https://www.graphql-tools.com/docs/schema-loading#binding-to-http-server
 import { loadSchemaSync } from '@graphql-tools/load'
 import { GraphQLFileLoader } from '@graphql-tools/graphql-file-loader'

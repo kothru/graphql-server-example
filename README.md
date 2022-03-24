@@ -36,3 +36,10 @@ https://medium.com/@itayperry91/get-started-with-postgresql-on-windows-a-juniors
 
 npx prisma migrate dev
 (no need createdb command because `prisma migrate dev` create db (ref.) like  createdb -U postgres mydb)
+
+
+## ref. specification
+
+https://graphql.org/learn/schema/
+https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference#unique
+https://www.prisma.io/docs/concepts/components/prisma-client/relation-queries
