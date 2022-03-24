@@ -11,7 +11,7 @@ const typeDefs = loadSchemaSync('./schema.graphql', {
   loaders: [new GraphQLFileLoader()]
 })
 
-import resolvers from './resolvers.js'
+import { resolvers } from './resolvers.js'
 
 // The ApolloServer constructor requires two parameters: your schema
 // definition and your set of resolvers.
